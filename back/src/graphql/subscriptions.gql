@@ -1,0 +1,9 @@
+subscription recipeAdded {
+  recipeAdded {
+    id
+    title
+    description
+    ingredients
+    creationDate
+  }
+}

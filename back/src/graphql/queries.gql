@@ -1,0 +1,19 @@
+  query findAllRecipes {
+    recipes {
+      id
+      title
+      description
+      ingredients
+      creationDate
+    }
+  }
+
+  query findRecipeById($id: String!) {
+    recipe(id: $id) {
+      id
+      title
+      description
+      ingredients
+      creationDate
+    }
+  }
